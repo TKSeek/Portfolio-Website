@@ -182,4 +182,23 @@ href="https://fonts.googleapis.com/css?family=Roboto">
 </div>
 
 </body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDCEoaYVPqMVfRZWTFg-3cMEWQvB_-K4Sg",
+    authDomain: "portfolioweb101.firebaseapp.com",
+    projectId: "portfolioweb101",
+    storageBucket: "portfolioweb101.appspot.com",
+    messagingSenderId: "79945720267",
+    appId: "1:79945720267:web:919519c6fb22cadc90964e"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 </html>
